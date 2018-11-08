@@ -315,6 +315,8 @@ MP_DECLARE_CONST_FUN_OBJ_1(calliope_led_get_blue_obj);
 MP_DECLARE_CONST_FUN_OBJ_VAR_BETWEEN(calliope_led_set_colors_obj);
 MP_DECLARE_CONST_FUN_OBJ_1(calliope_led_get_colors_obj);
 
+MP_DECLARE_CONST_FUN_OBJ_1(calliope_led_clear_obj);
+
 MP_DECLARE_CONST_FUN_OBJ_1(microbit_button_is_pressed_obj);
 MP_DECLARE_CONST_FUN_OBJ_1(microbit_button_was_pressed_obj);
 MP_DECLARE_CONST_FUN_OBJ_1(microbit_button_get_presses_obj);

@@ -106,7 +106,15 @@ mp_obj_t calliope_led_set_colors_func(mp_uint_t n_args, const mp_obj_t *args) {
 MP_DEFINE_CONST_FUN_OBJ_VAR_BETWEEN(calliope_led_set_colors_obj, 4, 4, calliope_led_set_colors_func);
 
 
-
+mp_obj_t calliope_led_clear(mp_obj_t self_in) {
+	neopixel_init(&neo, P0_18, 1);
+    colors[0] = 0;
+    colors[1] = 0;
+    colors[2] = 0;
+    neopixel_set_color_and_show(&neo, 0, colors[0], colors[1], colors[2]);
+    return mp_const_none;
+}
+MP_DEFINE_CONST_FUN_OBJ_1(calliope_led_clear_obj, calliope_led_clear);
 
 
 
@@ -125,6 +133,8 @@ STATIC const mp_map_elem_t calliope_led_locals_dict_table[] = {
 
     { MP_OBJ_NEW_QSTR(MP_QSTR_set_colors), (mp_obj_t)&calliope_led_set_colors_obj },
     { MP_OBJ_NEW_QSTR(MP_QSTR_get_colors), (mp_obj_t)&calliope_led_get_colors_obj },
+
+    { MP_OBJ_NEW_QSTR(MP_QSTR_clear), (mp_obj_t)&calliope_led_clear_obj },
 };
 STATIC MP_DEFINE_CONST_DICT(calliope_led_locals_dict, calliope_led_locals_dict_table);
 
