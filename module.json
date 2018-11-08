@@ -7,7 +7,7 @@
   "author": "Mohamad El Khatib El Khalidi",
   "homepage": "http://micropython.org",
   "dependencies":{
-    "microbit-dal":"Make-Code-Play/microbit-dal"
+    "microbit-dal":"Make-Code-Play/microbit-dal#v1.0.0"
   },
   "extraIncludes":[
     "inc",
