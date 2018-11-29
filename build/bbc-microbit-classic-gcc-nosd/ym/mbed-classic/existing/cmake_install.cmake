@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Arbeitplatz/micropython/yotta_modules/mbed-classic
+# Install script for directory: /home/ubuntu/testmicropython/calliope-mini-micropython/yotta_modules/mbed-classic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

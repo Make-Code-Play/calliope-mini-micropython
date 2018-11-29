@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Arbeitplatz/micropython/build/bbc-microbit-classic-gcc-nosd/ym/nrf51-sdk
+# Install script for directory: /home/ubuntu/testmicropython/calliope-mini-micropython/build/bbc-microbit-classic-gcc-nosd/ym/nrf51-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/Arbeitplatz/micropython/build/bbc-microbit-classic-gcc-nosd/ym/nrf51-sdk/source/cmake_install.cmake")
+  include("/home/ubuntu/testmicropython/calliope-mini-micropython/build/bbc-microbit-classic-gcc-nosd/ym/nrf51-sdk/source/cmake_install.cmake")
 
 endif()
 

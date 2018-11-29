@@ -150,14 +150,14 @@ typedef enum {
     TGT_RX = p25,
 
     //BUTTON B
-    BUTTON_B = p16,
+    BUTTON_B = p26,
     
     //ACCEL INTERRUPT PINS (MMA8653FC)
     ACCEL_INT2 = p27,
-    ACCEL_INT1 = p21,
+    ACCEL_INT1 = p28,
 
     //MAGENETOMETER INTERRUPT PIN (MAG3110)
-    MAG_INT1 = p23,
+    MAG_INT1 = p29,
 
     // Not connected
     NC = (int)0xFFFFFFFF,
@@ -177,10 +177,10 @@ typedef enum {
     LED4    = P0_16,
 
     //SDA (SERIAL DATA LINE)
-    I2C_SDA0 = p20,
+    I2C_SDA0 = p30,
 
     //SCL (SERIAL CLOCK LINE)
-    I2C_SCL0 = p19
+    I2C_SCL0 = p0
 
 } PinName;
 

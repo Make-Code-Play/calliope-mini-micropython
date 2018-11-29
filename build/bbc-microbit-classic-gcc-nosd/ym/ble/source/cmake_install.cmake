@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Arbeitplatz/micropython/build/bbc-microbit-classic-gcc-nosd/ym/ble/source
+# Install script for directory: /home/ubuntu/testmicropython/calliope-mini-micropython/build/bbc-microbit-classic-gcc-nosd/ym/ble/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

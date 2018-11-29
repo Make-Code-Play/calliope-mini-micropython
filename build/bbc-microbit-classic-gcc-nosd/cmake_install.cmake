@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Arbeitplatz/micropython/build/bbc-microbit-classic-gcc-nosd
+# Install script for directory: /home/ubuntu/testmicropython/calliope-mini-micropython/build/bbc-microbit-classic-gcc-nosd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,8 +29,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/Arbeitplatz/micropython/build/bbc-microbit-classic-gcc-nosd/ym/microbit-dal/cmake_install.cmake")
-  include("/home/ubuntu/Arbeitplatz/micropython/build/bbc-microbit-classic-gcc-nosd/source/cmake_install.cmake")
+  include("/home/ubuntu/testmicropython/calliope-mini-micropython/build/bbc-microbit-classic-gcc-nosd/ym/microbit-dal/cmake_install.cmake")
+  include("/home/ubuntu/testmicropython/calliope-mini-micropython/build/bbc-microbit-classic-gcc-nosd/source/cmake_install.cmake")
 
 endif()
 
@@ -42,5 +42,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/Arbeitplatz/micropython/build/bbc-microbit-classic-gcc-nosd/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/testmicropython/calliope-mini-micropython/build/bbc-microbit-classic-gcc-nosd/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -187,7 +187,7 @@ rule CXX_EXECUTABLE_LINKER__calliope-micropython
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake -H/home/ubuntu/Arbeitplatz/micropython/build/bbc-microbit-classic-gcc-nosd -B/home/ubuntu/Arbeitplatz/micropython/build/bbc-microbit-classic-gcc-nosd
+  command = /usr/bin/cmake -H/home/ubuntu/testmicropython/calliope-mini-micropython/build/bbc-microbit-classic-gcc-nosd -B/home/ubuntu/testmicropython/calliope-mini-micropython/build/bbc-microbit-classic-gcc-nosd
   description = Re-running CMake...
   generator = 1
 

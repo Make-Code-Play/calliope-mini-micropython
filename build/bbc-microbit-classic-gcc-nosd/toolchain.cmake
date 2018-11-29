@@ -5,5 +5,5 @@ if(YOTTA_META_TOOLCHAIN_FILE_INCLUDED)
 endif()
 set(YOTTA_META_TOOLCHAIN_FILE_INCLUDED 1)
 
-include("/home/ubuntu/Arbeitplatz/micropython/yotta_targets/mbed-gcc/CMake/toolchain.cmake")
-include("/home/ubuntu/Arbeitplatz/micropython/yotta_targets/bbc-microbit-classic-gcc-nosd/CMake/toolchain.cmake")
+include("/home/ubuntu/testmicropython/calliope-mini-micropython/yotta_targets/mbed-gcc/CMake/toolchain.cmake")
+include("/home/ubuntu/testmicropython/calliope-mini-micropython/yotta_targets/bbc-microbit-classic-gcc-nosd/CMake/toolchain.cmake")

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Arbeitplatz/micropython/yotta_modules/microbit-dal/source
+# Install script for directory: /home/ubuntu/testmicropython/calliope-mini-micropython/yotta_modules/microbit-dal/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

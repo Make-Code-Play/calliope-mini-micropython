@@ -3,7 +3,7 @@
 // yotta config data (including backwards-compatible definitions)
 #define TARGET BBC_MICROBIT_CLASSIC_GCC_NOSD
 #define TARGET_LIKE_BBC_MICROBIT_CLASSIC_GCC_NOSD
-#define YOTTA_BUILD_INFO_HEADER "/home/ubuntu/Arbeitplatz/micropython/build/bbc-microbit-classic-gcc-nosd/yotta_build_info.h"
+#define YOTTA_BUILD_INFO_HEADER "/home/ubuntu/testmicropython/calliope-mini-micropython/build/bbc-microbit-classic-gcc-nosd/yotta_build_info.h"
 #define TARGET_LIKE_BBC_MICROBIT_CLASSIC_GCC_NOSD
 #define TARGET_LIKE_NRF51822
 #define TARGET_LIKE_NRF
